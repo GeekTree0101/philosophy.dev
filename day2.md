@@ -2,11 +2,13 @@
 동료가 물었다. VoIP와 webRTC의 차이점은 무엇인가요? Agora는 AgoraRTC를 제공하는데 그러면 webRTC를 채택하고 있는 걸까요?
 사전적 의미로만 보았을 때 둘은 비숫해보이기도 하면서도 한편으론 다른것 같아보이지만 결론부터 말하자면 AgoraRTC는 webRTC를 온전히 채택한 것은 아니며 AgoraRTC중 Agora의 VoIP는 통상적으로 알고 있는 VoIP의 저수준 서비스다.
 
-### VoIP 구조 예시
+#### VoIP 구조 예시
+<img src="https://github.com/GeekTree0101/philosophy.dev/blob/main/res/voip.png" />
 
 그렇다면 webRTC는 무엇인가? 
 
-### webRTC 구조 예시
+#### webRTC 구조 예시
+<img src="https://github.com/GeekTree0101/philosophy.dev/blob/main/res/webrtc.png" />
 
 webRTC내부엔 voice engine이 있고 두가지의 코덱(codec)이 있는데 그 중에서 Session Initiation
 Protocol(SIP)를 혹시 저수준 레이어에서 지원하고 있지않을까?
